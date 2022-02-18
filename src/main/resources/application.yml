@@ -4,7 +4,9 @@ spring:
 ---
 server:
   port: 8084
-
+  servlet:
+    context-path: /pay
+    
 logging:
   level:
     yongs:
@@ -41,7 +43,9 @@ spring:
 ---
 server:
   port: 8080
-
+  servlet:
+    context-path: /pay
+ 
 logging:
   level:
     yongs:
